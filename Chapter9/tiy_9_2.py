@@ -8,4 +8,3 @@ r3 = rest("chen's", "chinese")
 r1.describe_restaurant()
 r2.describe_restaurant()
 r3.describe_restaurant()
-

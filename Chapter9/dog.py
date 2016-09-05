@@ -14,17 +14,13 @@ class Dog():
 		'''Simulate rolling over in response to a command.'''
 		print(self.name.title() + " rolled over!")
 
-# make instanse of Dog class
+
+# Making an instance of the dog class
 my_dog = Dog('willie', 6)
 your_dog = Dog('lucy', 3)
-# my_dog.sit()
-# my_dog.roll_over()
-
 print("My dog's name is " + my_dog.name.title() + ".")
-print("My dog's " + str(my_dog.age) + " years old.")
-my_dog.sit()
+print("My dog is " + str(my_dog.age) + " years old.")
 
 print("\nYour dog's name is " + your_dog.name.title() + ".")
 print("Your dog is " + str(your_dog.age) + " years old.")
 your_dog.sit()
-
